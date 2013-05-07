@@ -1,0 +1,29 @@
+ - idei pentru slide-uri (propunere)
+
+ 1. incepem cu tema preentarii
+ 2. structura prezentarii
+ 3. cate ceva despre noi si despre firma
+ 4. slides 1 & 2 - testers, second class citizens
+  - in domeniul in care lucram, deseori, testerii sunt priviti ca cei care executa munca de o dificultate mai usoara, de rutina, unde nu sunt necesare skill-uri atat de puternice pe cat ale programatorilor
+  - prin intermediul acestei prezentari, incercam sa expunem challenge-urile cu care testerii se confrunta zilnic, precum si rolul muncii lor intr-un mediu Agile
+  - Indiferent de metodologia adoptata, cheia spre un proiect de succes o reprezinta in primul rand comunicarea din cadrul echipei; iar atat timp cat vor exista echipe dedicate de testeri, al caror rol este sa atraga atentia asupra ceea ce nu a fost implementat bine, vom avea dificultati in a fi priviti ca si software engineers.
+  - Bineinteles, exista metodologii ce nu au ca prim focus comunicarea in echipa, ci se axeaza mai mult pe livrarea unui produs testat cat mai mult. Chiar spunand aceste cuvinte, putem realiza paradoxul - nu vom putea obtine un produs de calitate atata timp cat scopul fiecarei echipe (developers and testers) este de a demonstra ca echipa proprie e mai buna.
+  - Avand aceste lucruri in minte, am inceput sa ne gandim la un mediu de lucru ideal, de pe urma caruia produsul creat este unul de calitate, iar efortul depus nu pare un efort in adevaratul sens al cuvantului, ci o reactie naturala ce vine in urma implementarii unui proces focusat pe calitate.
+  - Am inteles ca pentru a obtine aceste lucruri, trebuie sa depasim unele obstacole ce ni le impunem poate, singuri: comunicarea cu echipele de devs de exemplu. Cum ar fi sa lucram intr-o echipa unde toata lumea stie ce are de facut de la bun inceput, si mai important toata lumea stie acelasi lucru despre ceea ce este de facut? Poate va ganditi ca un simplu meeting de stand-up poate asigura acest lucru, dar realist vorbind, nu este suficient pentru a asigura o comunicare si colaborare stransa in cadrul echipei.
+
+   - Dupa diverse analize si research-uri, am ajuns la concluzia ca merita sa incercam sa BDD.
+   - Slide "What exactly is BDD?":
+        - definitie TDD si BDD, comparativ cu BDD. De exemplu: TDD is a development practice, while BDD is a team methodology.
+        - comunicare - fara o comunicare stransa, cu toata echipa, nu vom reusi sa implementam un proces complex cum este acesta. Din fericire pentru noi, BDD furnizeaza cateva concepte clare de cum se poate imbunatati comunicarea in cadrul echipei.
+        - perspective diferite - stim ceea ce doresc stakeholderii, pentru ca ei ne spun. Dar stim cu adevarat? Cum ar fi sa incercam sa raspundem impreuna la intrebari de genul: De ce vrei asta? Care este scopul? cine are de castigat etc...decat sa ne rezumam la a fi simpli executanti?
+
+    - Slide "What do we want from BDD?"
+     - cate o definitie pentru fiecare liniuta de acolo, din SBE
+    - Slide "BDD provides the team with..."
+        - explicatie pentru fiecare termen (toate se pot exemplifica prin shared understanding, comunicare)
+    - slide-urile cu poze...cred ca e suficient sa citim ce e pe slide-uri, mai detaliem un pic
+    - Slide "Challenges along the way..."
+        - Transioning from a Scrum based process - care ar fi diferentele...putem spune am modificat/inlocuit stand-up-urile cu meetinguri in care ne asiguram ca toata lumea stie ce are de facut, si este un challenge pentru ca luam oamenii din their comfort zone, si incercam sa ii obisnuim cu un proces diferit
+        - Getting our clients on board with the change - am avut de lucru mai mult si inca lucram cu PO pentru a-i face sa inteleaga rolul si importanta lor in BDD. Desi in cazul ideal ei ar trebui sa scrie scenariile GWT, inca nu am ajuns la acest punct si incercam sa gasim o cale de mijloc (le scriem noi, iar ei fac review); alt challenge este diferenta de fus orar, dar noi suntem un caz norocos, pentru ca ne suprapunem cateva ore pe zi; pt cei care nu au posibilitatea asta, recomandam un business analyst on the client's site.
+        - Using Gherkin language at its best - sa scrii scenarii din care reiese clar ce trebuie facut, business value, ce si cum trebuie testat, etc. poate fi cel mai complex lucru la BDD - invatam si crestem in continuare pe aceasta parte, inca nu am ajuns in punctul in care spunem ca stapanim tehnica
+        - Striving towards <b>Living Documentation</b> - acesta reprezinta main benefit la BDD, dar un challenge ar putea fi faptul ca suntem o echipa mare, si uneori trebuie sa gasim solutii mai bune pt a mentine testele, a.i. sa evitam duplicarea. de asemenea, LD trebuie sa fie usor de mentinut, accesibila tuturor, always up to date si usor de inteles. Sunt multe checkpoint-uri pe care trebuie sa le luam in considerare si trebuie sa ne gandim la o solutie ce evita compromisurile pe cat posibil.
